@@ -10,6 +10,10 @@
     "nuxt": "3.0.0-rc.1"
   },
   "dependencies": {
+    "@pinia/nuxt": "0.1.9",
+    "less": "4.1.2",
+    "less-loader": "10.2.0",
+    "pinia": "2.0.14",
     "vant": "3.4.9"
   }
 }
