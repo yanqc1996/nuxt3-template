@@ -10,12 +10,19 @@ export default defineNuxtConfig({
       {
         hid: 'description',
         name: 'description',
-        content: '基于Nuxt3的demo',
+        content: '基于Nuxt3的demo,Vue3/TS学习，Element_Plus UI',
       },
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'Nuxt3 Vue3 Vant TS',
+        content: 'Nuxt3 Vue3 Element_Plus TS',
+      },
+    ],
+    script: [
+      {
+        src: 'https://hm.baidu.com/hm.js?60aca0cd89f3483306cc8e7e18dc6795',
+        async: true,
+        defer: true,
       },
     ],
   },
