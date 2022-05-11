@@ -24,6 +24,10 @@ export default defineNuxtConfig({
         async: true,
         defer: true,
       },
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-8VRKQSZKZ8',
+        async: true,
+      },
     ],
   },
   // build modules
