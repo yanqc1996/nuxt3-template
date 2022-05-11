@@ -1,5 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
-
+const lifecycle = process.env.npm_lifecycle_event
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   // meta
@@ -21,4 +21,8 @@ export default defineNuxtConfig({
   },
   // build modules
   buildModules: ['@pinia/nuxt'],
+  // build
+  build: {
+    transpile: lifecycle === 'build' || lifecycle === 'generate' ? ['element-plus'] : [],
+  },
 })
