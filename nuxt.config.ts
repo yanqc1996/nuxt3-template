@@ -29,6 +29,13 @@ export default defineNuxtConfig({
         async: true,
       },
     ],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/img/cloud.png',
+      },
+    ],
   },
   // build modules
   buildModules: ['@pinia/nuxt'],
